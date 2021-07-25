@@ -1,8 +1,3 @@
-::: warning WIP
-This page is Work In Progress
-:::
-
-
 # Getting Started
 
 ## Installation
@@ -51,37 +46,34 @@ Please read the [official documentation](https://wordpress.org/support/article/m
 
 ### Initial Configuration
 
-Asura uses the API system on its core, allowing to manage Asura on multiple websites from a single admin page.
-The admin page is fully AJAX experience.
-The API system is requiring credentials to authorize each action and access.
+Collaboration uses the [Pusher.com](https://pusher.com/channels) service on its core, allowing it achiving realtime experience in economic and easy to setup.
 
-To allow you to manage your local installed Asura, you need to generate a new API credential with full access and register the API credential to the Remote management.
+<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/eDi0MQXQDIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-1. Navigate to **Aether > Asura**
-2. Click the **Remotes** tab at the top of the screen.
-3. Click the **Initiate 🌱** button on the top right of the screen.
-4. When initialization is complete, you’ll see a new remote on the Remotes list table and a new API on the APIs list table.
+To allow you to using the realtime feature, you need an Pusher.com App Keys.
 
-Now you are able to manage your local installed Asura.
+1. Sign in to [Pusher.com](https://dashboard.pusher.com/accounts/sign_in)
+2. Navigate to Channels [Dashboard](https://dashboard.pusher.com/channels)
+3. Click the **Create App** button at the top right of the screen.
+4. Fill the “Select a cluster” field with the nearest region to you.
+5. Click the **Create App** button. The new app will be created and you will be redirected to the app dashboard page.
+6. Navigate to the **App Settings** tab
+7. Check the **Enable client events** checkbox
+8. Click **Update** to save the changed settings
+9. Navigate to the **App Keys** tab
+10. On your WordPress site, Navigate to **Aether > Collaboration**
+11. Fill all the setting fields with the Pusher.com App Keys from the step #9, and click the **Save Changes** button.
+
+Now you are able to use the Oxygen Editor and collaborating in realtime experience.
 
 
 ### Plugin Automatic Update
 
-Get the latest version of Asura plugin by registering your installed plugin on the admin page.
+Get the latest version of Collaboration plugin by registering your installed plugin on the admin page.
 
-1. Navigate to **Aether > Asura**
-2. Click the **Settings** tab at the top of the screen.
+1. Navigate to **Aether > Collaboration**
+2. Click the **License** tab at the top of the screen.
 3. Input your plugin license key in the “License Key” field.
 4. Click **Save Changes** button to register your installed plugin.
 
 When the new version is avaiable, you will get the update notification and do updater right on the **Dashboard > Updates**.
-
-### Next Steps
-
-Now that you have install your Asura plugin, you may be wondering what to learn next. First, we strongly recommend becoming familiar with how Asura works by reading the following documentation:
-
-- [Design Set](./design-set)
-- [API](./api)
-- [Remote](./remote)
-- [License](./license)
-
