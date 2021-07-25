@@ -9,25 +9,19 @@ actionLink: /guide/getting-started
 altActionText: Download
 altActionLink: https://go.oxyrealm.com/collaboration
 features:
-
   - title: ⚡️ Realtime Sync
     details: Update data and design instantly between multiple tabs of Oxygen Editor.
-
-
   - title: 🧑 Multi User & Tab
     details: Support multiple users and multiple tabs of Oxygen Editor simultaneously.
-
-
   - title: 💻 Cross Browser
     details: Running on all popular browsers. 
-
-
   - title: 🏢 Agency
     details: Collaborating and working together made easy! 
-
-
 showcases:
-  - name: 
-    url: 
-    logo: 
+  - name: syncwin
+    url: https://syncwin.com/resource/oxygen-builder-addons/#collaboration
+    logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4SqxzxXL_j_hQpk685vUCQ-MlzjIEaZUNvqaywvloyA9GABLziMkxtaZilXgcKKOsfbI&usqp=CAU
+  - name: oxystuff
+    url: https://oxystuff.com/?mailpoet_router&endpoint=view_in_browser&action=view&data=WzE5LCI0NDc0MGE2NWE1OGQiLDYxNSwidThjN3J4cTIyb2c4NG9jZ2trZ2cwY2dnb3djYzAwb3ciLDE2LDBd
+    logo: https://oxystuff.com/wp-content/uploads/2019/07/oxystuff-logo.jpg
 ---
