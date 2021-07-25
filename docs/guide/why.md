@@ -1,44 +1,41 @@
-# Why Asura
+# Why Collaboration
 
-[Asura](https://dplugins.com/asura) is a license management plugin for Oxygen Builder design sets creator. **Selling design sets made easy!**
+[Collaboration](https://dplugins.com/collaboration) is a plugin for Oxygen Editor and adding support for Multi User and Multi Tab Editing.
+
+Even **Elementor** doesn't have this kind feature / plugin 😎
+
+**Collaborating and working together made easy!**
 
 
-## The Problems
+## The Problem
 
 Oxygen Builder is a powerful visual editing for WordPress website. With the granular control on the Oxygen Editor page, you can achive a beautiful website and many aspect that may not available on another WordPress visual editing or page builder plugin. 
 
-If you just getting started and want to save your time from starting the design from scratch, you can use the pre-made design and block.
-You can build anything using hundreds of beautiful pre-made blocks that provided by Oxygen through Design Library panel. To use a third party design set, you’ll need to have the Site-Key for that design set.
-
-The User Design Library feature allows you to create and use third party design sets in Oxygen.
-The feature is the mostly used by any Agencies that building WordPress design using Oxygen Builder. Build the wireframe or framework, and reusing it on future projects.
-
-### Single Site-Key
-
-When you want to publish your own design set, you need to tick the “Enable 3rd Party Design” setting on the Oxygen’s admin page. Once you activate the setting, it will generate a Site-Key that needed to use the design set on another site. You can regenerate the key by clicking the “Regenerate Key” link below the Site-Key field.
-
-![3rd Party Design Set setting page](https://26bf1td05du17c1e8350wwjp-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/designsetupimg.png)
+The [official documentation](https://oxygenbuilder.com/documentation/other/multi-user-editing-edit-locking/) recommend using a single tab when working with Oxygen to avoid issues where one tab is saving older data than another, resulting in overwriting your new changes. The same scenario can occur when two or more users are working in Oxygen at the same time.
 
 
-Once you have the Site-Key, you can hand over the Site-Key to your friend, co-worker, or your client.
-By using the Single Site-Key, you will **facing some issues** in the future. 
+### Global styles, classes, and settings mechanism
 
-- ❌ **One Site-Key for all user:** You are not able to generate multiple Site-Key for your friend, co-worker, or your client.
+Because of the way Oxygen saves global styles, classes, and settings, multi-user or multi-tab editing with Oxygen is highly discouraged.
 
-    ✔️ Asura allowing you to generate multiple unique Site-Key (license) for your friend, co-worker, or your client.
+There are many of article about this problem:
+- [**Facebook:** Why are we unable to edit multiple pages in oxygen at the same time?](https://www.facebook.com/groups/1626639680763454/posts/3853724478054952/)
+- [**Facebook:** Second, it would be very nice if we could open multiple pages to edit, and tab back and forth like we do with multiply browser windows](https://www.facebook.com/groups/1626639680763454/posts/1977606142333471/)
+- [**GitHub issue:** Multi-user / multi-tab editing #1066](https://github.com/soflyy/oxygen-bugs-and-features/issues/1066)
+- [**GitHub issue:** When me and my coworkers work on a project we overwrite each others style #1078](https://github.com/soflyy/oxygen-bugs-and-features/issues/1078)
+- [**GitHub issue:** Prevent opening of multiple tabs #711](https://github.com/soflyy/oxygen-bugs-and-features/issues/711)
+- [**Stackoverflow:** Oxygen Builder multiple users simultaneously](https://stackoverflow.com/questions/65853850/oxygen-builder-multiple-users-simultaneously)
+- [**WordPress.org support:** Problems with Oxygen Builder](https://wordpress.org/support/topic/problems-with-oxygen-builder/)
+- [**Article:** Oxygen is geen multi-user en multi-tab omgeving](https://webdegelijk.nl/2021/03/19/client-mode-in-oxygen/#toc-item-7)
+- [**Facebook:** Hello everyone, I would like to start a web project with a friend. I was wondering about the multi-user editing on Oxygen Builder ...](https://www.facebook.com/groups/1626639680763454/posts/4030103447083720/)
+- [**Facebook:** Hi ALL, Just to confirm. I have read that we can't open browser multi-tab to edit using oxygen builder ...](https://www.facebook.com/groups/1626639680763454/posts/3868527863241280/)
+- [**Facebook:** In reading more documentation and posts on Oxygen and its available add-ons, I came across something ...](https://www.facebook.com/groups/1626639680763454/posts/3429102000517204/)
+- [**Facebook:** Oxygen has a limit, multi-user cannot be used. Inevitably, the changes of one of the two users are lost ...](https://www.facebook.com/groups/1626639680763454/posts/3770444933049574/)
+- [**Facebook:** Hi Oxygen, We absolutely need an edit mode where stylesheets and global settings are not saved, because at the moment ...](https://www.facebook.com/groups/1626639680763454/posts/2905401819553894/)
+- [**Facebook:** Just watched the video release for Oxy v3.3. I was confused about the team workflow improvements ...](https://www.facebook.com/groups/1626639680763454/posts/2931040670323342/)
+- [**Facebook:** How do you manage collaborate on the same site ( difference pages) as oxygen did not allow to multi edit because of global style ...](https://www.facebook.com/groups/1626639680763454/posts/3553004751460261/)
+- [**Facebook:** I've run into a bunch of problems when editing multiple pages in Oxygen at the same time ...](https://www.facebook.com/groups/1626639680763454/posts/2858091744284902/)
+- [**Facebook:** Hey nice people. Why is it that I don't see the "Edit With Oxygen" option at the front end of the toolbar?](https://www.facebook.com/groups/1626639680763454/posts/3926861997407866/)
 
-- ❌ **The Site-Key can’t simply regenerated:** Regenerating Site-Key mean **all site** that using the Site-Key will no longer able to access the design set. You need to update stored Site-Key on the selected site that you still allowing to accessing your design set.
 
-    ✔️ Asura allowing you to regenerate a Site-Key (license). It will not affecting another site that accessing your design set using different Site-Key (license).
-
-- ❌ **The Site-Key can’t simply revoked or disabled:** Want to disable some website from accessing your design set? Revoking Site-Key mean **all site** that using the Site-Key will no longer able to access the design set. You need to update stored Site-Key on the selected site that you still allowing to accessing your design set.
-
-    ✔️ Asura allowing you to revoke a Site-Key (license). It will not affecting another site that accessing your design set using different Site-Key (license).
-
-- ❌ **Can’t limit the number of site that accessing the design set:** You are not able to limit the number of site that can access the design set, also you can’t set the expiry time for the Site-Key. Once you provide the Site-Key to someone, you can’t prevent them from reusing it for another site that not on the part of your mutual agreement.
-
-    ✔️ Asura allowing you to set the expire time and limit the number of site that can access design set foreach Site-Key (license). 
-
-- ❌ **Not designed for commercial:** With the characteristic of **Single Site-Key**, commercialize your design set is not easy.
-
-    ✔️ Asura have native integration with WooCommerce and Easy Digital Downloads. Each purchase will generate unique Site-Key (license).  
+And many more.

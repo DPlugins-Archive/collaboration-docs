@@ -1,3 +1,7 @@
+::: warning WIP
+This page is Work In Progress
+:::
+
 
 # Getting Started
 
@@ -6,19 +10,15 @@
 
 ### Server Requirements
 
-The Asura plugin has a few system requirements. Of course, all of these requirements are satisfied by the modern hosting, so it's highly recommended that you use modern hosting to run the Asura plugin. 
+The Collaboration plugin has a few system requirements. Of course, all of these requirements are satisfied by the modern hosting, so it's highly recommended that you use modern hosting to run the Collaboration plugin.
 
 You will need to make sure your server meets the following requirements:
 
 - PHP 7.4+
 - WordPress 5.5+
-- MySQL 5.7.7+ or MariaDB 10.2.2+
-- PDO PHP Extension
-- OpenSSL PHP Extension
-- Mbstring PHP Extension
 
 ::: tip DEPENDENCY
-The Asura plugin is requiring the [Aether plugin](https://wordpress.org/plugins/aether) installed on your WordPress.
+The Collaboration plugin is requiring the [Aether plugin](https://wordpress.org/plugins/aether) installed on your WordPress.
 :::
 
 
@@ -34,9 +34,9 @@ This is the simplest method of installing a plugin. To add a plugin using the bu
 Please read the [official documentation](https://wordpress.org/support/article/managing-plugins/#automatic-plugin-installation) for plugin installation instructions.
 
 
-### Installing Asura
+### Installing Collaboration
 
-Log in and download the latest Asura plugin from the [Customer Portal](https://dplugins.com/checkout/downloads/).
+Log in and download the latest Collaboration plugin from the [Customer Portal](https://dplugins.com/checkout/downloads/).
 
 If you have a copy of the plugin as a zip file, you can manually upload it and install it through the Plugins admin screen.
 
@@ -45,21 +45,6 @@ If you have a copy of the plugin as a zip file, you can manually upload it and i
 3. Select the zip file from your local filesystem.
 4. Click the **Install Now** button.
 5. When installation is complete, you’ll see “Plugin installed successfully.” Click the **Activate Plugin** button at the bottom of the page.
-6. Navigate to **Aether > Asura**
-7. Click the **System Info** tab at the top of the screen.
-8. Click **Get Dababase Migration Status** button to get status of database migration status. Make sure the printed status is **Yes** for the `Ran?` column for each migration. If you get different status, try to re-activate the plugin.
-
-```
-+------+----------------------------------------------------------+-------+
-| Ran? | Migration                                                | Batch |
-+------+----------------------------------------------------------+-------+
-| Yes  | 2020_08_11_114123_create_licenses_table                  | 1     |
-| Yes  | 2020_08_12_045744_create_generators_table                | 1     |
-| Yes  | .......                                                  | 1     |
-| Yes  | .......                                                  | 1     |
-| Yes  | .......                                                  | 1     |
-+------+----------------------------------------------------------+-------+
-```
 
 Please read the [official documentation](https://wordpress.org/support/article/managing-plugins/#manual-upload-via-wordpress-admin) for plugin installation instructions.
 
