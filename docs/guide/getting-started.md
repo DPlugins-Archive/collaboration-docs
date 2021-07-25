@@ -64,7 +64,7 @@ To allow you to using the realtime feature, you need an Pusher.com App Keys.
 10. On your WordPress site, Navigate to **Aether > Collaboration**
 11. Fill all the setting fields with the Pusher.com App Keys from the step #9, and click the **Save Changes** button.
 
-Now you are able to use the Oxygen Editor and collaborating in realtime experience.
+Now you are able to use the Oxygen Editor and collaborating in realtime experience. You will see the **indicator badge** on the bottom right of you Oxygen Editor screen.
 
 
 ### Plugin Automatic Update
