@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://raw.githubusercontent.com/oxyrealm/asura-docs/main/docs/logo.svg
+# heroImage: https://raw.githubusercontent.com/oxyrealm/asura-docs/main/docs/logo.svg
 heroAlt: Asura Logo
 heroText: Collaboration for Oxygen Builder
 tagline: "Oxygen Editor Multi User and Multi Tab Editing Support"

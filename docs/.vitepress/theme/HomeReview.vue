@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="container">
         <h3 class="title" id="reviews"> Reviews </h3>
-        <component is="script" src="https://utteranc.es/client.js" repo="oxyrealm/collaboration-docs" label="testimonial" issue-term="pathname" theme="preferred-color-scheme" crossorigin="anonymous" async></component>
+        <component is="script" src="https://utteranc.es/client.js" repo="oxyrealm/collaboration-docs" label="testimonial" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></component>
       </div>
     </div>
   </div>
