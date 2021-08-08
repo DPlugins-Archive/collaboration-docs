@@ -52,6 +52,10 @@ Collaboration uses the [Pusher.com](https://pusher.com/channels) service on its 
 
 To allow you to using the realtime feature, you need an Pusher.com App Keys.
 
+::: tip
+You can reuse the Pusher.com App Keys on multiple WordPress installation.
+:::
+
 1. Sign in to [Pusher.com](https://dashboard.pusher.com/accounts/sign_in)
 2. Navigate to Channels [Dashboard](https://dashboard.pusher.com/channels)
 3. Click the **Create App** button at the top right of the screen.
