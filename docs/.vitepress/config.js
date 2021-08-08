@@ -1,9 +1,15 @@
 module.exports = {
   base: '/',
   lang: 'en-US',
-  title: 'Collaboration',
-  description: 'Documentation for Collaboration plugin.',
+  title: 'Collaboration for Oxygen Editor',
+  description: 'Oxygen Editor Multi User and Multi Tab Editing support',
 
+  head: [
+    ['meta', { property: 'og:title', content: 'Collaboration for Oxygen Editor' }],
+    ['meta', { property: 'og:image', content: 'https://i1.wp.com/i.ytimg.com/vi/q51xhGxTk5k/maxresdefault.jpg?ssl=1' }],
+    ['meta', { property: 'og:image:alt', content: 'Oxygen Editor Multi User and Multi Tab Editing support' }],
+    ['link', { rel: 'icon', href: 'https://i1.wp.com/dplugins.com/wp-content/uploads/2020/10/cropped-dplugins-avatar-1-192x192.png?ssl=1' }],
+  ],
 
   themeConfig: {
     repo: 'oxyrealm/collaboration-docs',
