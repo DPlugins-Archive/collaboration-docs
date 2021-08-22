@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: https://raw.githubusercontent.com/oxyrealm/asura-docs/main/docs/logo.svg
-heroAlt: Asura Logo
+heroAlt: Collaboration Logo
 heroText: Collaboration for Oxygen Builder
 tagline: "Oxygen Editor Multi User and Multi Tab Editing Support"
 actionText: Get Started
@@ -9,14 +9,18 @@ actionLink: /guide/getting-started
 altActionText: Download
 altActionLink: https://go.oxyrealm.com/collaboration
 features:
-  - title: ⚡️ Realtime Sync
+  - title: ⚡️ Real-time Sync
     details: Update data and design instantly between multiple tabs of Oxygen Editor.
-  - title: 🧑 Multi User & Tab
+  - title: 🧑 Multi Users & Tabs
     details: Support multiple users and multiple tabs of Oxygen Editor simultaneously.
+  - title: 🪶 Lightweight
+    details: Optimized and add no slowness to Oxygen Editor
+  - title: ☁️ Work on Any Server
+    details: Compatible with any server even shared-hosting.
   - title: 💻 Cross Browser
     details: Running on all popular browsers. 
   - title: 🏢 Agency
-    details: Collaborating and working together made easy! 
+    details: Collaborating and working together got easy!
 showcases:
   - name: syncwin
     url: https://syncwin.com/resource/oxygen-builder-addons/#collaboration

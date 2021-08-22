@@ -1,15 +1,15 @@
 # Why Collaboration
 
-[Collaboration](https://dplugins.com/collaboration) is a plugin for Oxygen Editor and adding support for Multi User and Multi Tab Editing.
+[Collaboration](https://dplugins.com/collaboration) is a plugin for Oxygen Editor and adding support for Multi-User and Multi Tab Editing.
 
-Even **Elementor** doesn't have this kind feature / plugin 😎
+Even **Elementor** doesn't have this kind of feature/plugin 😎
 
-**Collaborating and working together made easy!**
+**Collaborating and working together got easy!**
 
 
 ## The Problem
 
-Oxygen Builder is a powerful visual editing for WordPress website. With the granular control on the Oxygen Editor page, you can achive a beautiful website and many aspect that may not available on another WordPress visual editing or page builder plugin. 
+Oxygen Builder is powerful visual editing for WordPress websites. With the granular control on the Oxygen Editor page, you can achieve a beautiful website and many aspects that may not be available on another WordPress visual editing or page builder plugin.  
 
 The [official documentation](https://oxygenbuilder.com/documentation/other/multi-user-editing-edit-locking/) recommend using a single tab when working with Oxygen to avoid issues where one tab is saving older data than another, resulting in overwriting your new changes. The same scenario can occur when two or more users are working in Oxygen at the same time.
 
@@ -18,7 +18,7 @@ The [official documentation](https://oxygenbuilder.com/documentation/other/multi
 
 Because of the way Oxygen saves global styles, classes, and settings, multi-user or multi-tab editing with Oxygen is highly discouraged.
 
-There are many of article about this problem:
+There are many articles about this problem:
 - [**Facebook:** Why are we unable to edit multiple pages in oxygen at the same time?](https://www.facebook.com/groups/1626639680763454/posts/3853724478054952/)
 - [**Facebook:** Second, it would be very nice if we could open multiple pages to edit, and tab back and forth like we do with multiply browser windows](https://www.facebook.com/groups/1626639680763454/posts/1977606142333471/)
 - [**GitHub issue:** Multi-user / multi-tab editing #1066](https://github.com/soflyy/oxygen-bugs-and-features/issues/1066)

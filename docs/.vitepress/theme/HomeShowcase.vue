@@ -122,6 +122,7 @@ const showcases = computed<Feature[]>(() => {
   flex-shrink: 0;
   padding: 20px 24px;
   width: 100%;
+  align-self: center;
 }
 
 @media (min-width: 720px) {

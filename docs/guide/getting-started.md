@@ -5,7 +5,7 @@
 
 ### Server Requirements
 
-The Collaboration plugin has a few system requirements. Of course, all of these requirements are satisfied by the modern hosting, so it's highly recommended that you use modern hosting to run the Collaboration plugin.
+The Collaboration plugin has a few system requirements. Of course, modern hosting satisfies all of these requirements, so it's highly recommended that you use modern hosting to run the Collaboration plugin.
 
 You will need to make sure your server meets the following requirements:
 
@@ -22,7 +22,7 @@ This is the simplest method of installing a plugin. To add a plugin using the bu
 
 1. Navigate to **Plugins > Add New**.
 2. Use the search form in the top-right to search “**Aether**”.
-3. On the search results that appear, click a plugin’s title to read more about it. This page may contain installation notes, plugin documentation or other useful information.
+3. On the search results that appear, click a plugin’s title to read more about it. This page may contain installation notes, plugin documentation, or other useful information.
 4. Click the **Install Now** button to install the plugin.
 5. Click **Activate** to activate the plugin.
 
@@ -39,21 +39,21 @@ If you have a copy of the plugin as a zip file, you can manually upload it and i
 2. Click the **Upload Plugin** button at the top of the screen.
 3. Select the zip file from your local filesystem.
 4. Click the **Install Now** button.
-5. When installation is complete, you’ll see “Plugin installed successfully.” Click the **Activate Plugin** button at the bottom of the page.
+5. When the installation is complete, you’ll see “Plugin installed successfully.” Click the **Activate Plugin** button at the bottom of the page.
 
 Please read the [official documentation](https://wordpress.org/support/article/managing-plugins/#manual-upload-via-wordpress-admin) for plugin installation instructions.
 
 
 ### Initial Configuration
 
-Collaboration uses the [Pusher.com](https://pusher.com/channels) service on its core, allowing it achiving realtime experience in economic and easy to setup.
+The Collaboration plugin uses the [Pusher.com](https://pusher.com/channels) service on its core, allowing it to achieve real-time experience in economic and easy to setup.
 
 <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/eDi0MQXQDIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-To allow you to using the realtime feature, you need an Pusher.com App Keys.
+To allow you to use the real-time feature, you need a Pusher.com App Keys.
 
 ::: tip
-You can reuse the Pusher.com App Keys on multiple WordPress installation.
+You can reuse the Pusher.com App Keys on multiple WordPress installations.
 :::
 
 1. Sign in to [Pusher.com](https://dashboard.pusher.com/accounts/sign_in)
@@ -66,18 +66,18 @@ You can reuse the Pusher.com App Keys on multiple WordPress installation.
 8. Click **Update** to save the changed settings
 9. Navigate to the **App Keys** tab
 10. On your WordPress site, Navigate to **Aether > Collaboration**
-11. Fill all the setting fields with the Pusher.com App Keys from the step #9, and click the **Save Changes** button.
+11. Fill all the setting fields with the Pusher.com App Keys from step #9, and click the **Save Changes** button.
 
-Now you are able to use the Oxygen Editor and collaborating in realtime experience. You will see the **indicator badge** on the bottom right of your Oxygen Editor screen.
+Now you can use the Oxygen Editor and collaborate in a real-time experience. You will see the **indicator badge** on the bottom right of your Oxygen Editor screen.
 
 
 ### Plugin Automatic Update
 
-Get the latest version of Collaboration plugin by registering your installed plugin on the admin page.
+Get the latest version of the Collaboration plugin by registering your installed plugin on the admin page.
 
 1. Navigate to **Aether > Collaboration**
 2. Click the **License** tab at the top of the screen.
 3. Input your plugin license key in the “License Key” field.
-4. Click **Save Changes** button to register your installed plugin.
+4. Click the **Save Changes** button to register your installed plugin.
 
-When the new version is avaiable, you will get the update notification and do updater right on the **Dashboard > Updates**.
+When the new version is available, you will get the update notification and do updater right on the **Dashboard > Updates**.

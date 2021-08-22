@@ -12,7 +12,7 @@ module.exports = {
     ['meta', { property: 'og:image:width', content: '1280' }],
     ['meta', { property: 'og:image:height', content: '720' }],
     ['meta', { property: 'og:image:alt', content: 'Oxygen Editor Multi User and Multi Tab Editing support' }],
-    ['link', { rel: 'icon', href: 'https://i1.wp.com/dplugins.com/wp-content/uploads/2020/10/cropped-dplugins-avatar-1-192x192.png?ssl=1' }],
+    ['link', { rel: 'icon', href: 'https://raw.githubusercontent.com/oxyrealm/asura-docs/main/docs/logo.svg' }],
   ],
 
   themeConfig: {
@@ -38,7 +38,6 @@ module.exports = {
           children: [
             { text: 'Why Collaboration?', link: '/guide/why' },
             { text: 'Getting Started', link: '/guide/getting-started' },
-            
           ]
         },
       ],
