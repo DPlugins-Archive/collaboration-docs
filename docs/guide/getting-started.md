@@ -12,23 +12,6 @@ You will need to make sure your server meets the following requirements:
 - PHP 7.4+
 - WordPress 5.5+
 
-::: tip DEPENDENCY
-The Collaboration plugin is requiring the [Aether plugin](https://wordpress.org/plugins/aether) installed on your WordPress.
-:::
-
-
-### Installing Aether
-This is the simplest method of installing a plugin. To add a plugin using the built-in plugin installer:
-
-1. Navigate to **Plugins > Add New**.
-2. Use the search form in the top-right to search “**Aether**”.
-3. On the search results that appear, click a plugin’s title to read more about it. This page may contain installation notes, plugin documentation, or other useful information.
-4. Click the **Install Now** button to install the plugin.
-5. Click **Activate** to activate the plugin.
-
-Please read the [official documentation](https://wordpress.org/support/article/managing-plugins/#automatic-plugin-installation) for plugin installation instructions.
-
-
 ### Installing Collaboration
 
 Log in and download the latest Collaboration plugin from the [Customer Portal](https://dplugins.com/checkout/downloads/).
