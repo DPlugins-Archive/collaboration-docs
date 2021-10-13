@@ -32,6 +32,11 @@ const { Layout } = DefaultTheme
 
     <template #home-hero>
       <div style="padding-top:2rem;text-align:center;">
+        <a class="" href="https://dplugins.com/wp-content/uploads/2021/10/Oxygen-Team-is-impressed-scaled.jpg" target="_blank">
+          <img src="https://dplugins.com/wp-content/uploads/2021/10/Oxygen-Team-is-impressed-scaled.jpg" alt="">
+        </a>
+      </div>
+      <div style="padding-top:2rem;text-align:center;">
         <div class="youtube-container">
           <iframe
             loading="lazy"
