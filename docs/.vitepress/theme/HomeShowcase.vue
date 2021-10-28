@@ -42,6 +42,7 @@ const showcases = computed<Feature[]>(() => {
                 :src="showcase.logo"
                 :alt="showcase.name"
                 class="logo"
+                :style="showcase.img_style ?? ''"
               >
             </a>
           </section>
