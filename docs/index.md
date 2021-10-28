@@ -31,6 +31,9 @@ showcases:
   - name: permaslug
     url: https://youtu.be/FrF6IqgUJ9U
     logo: https://i1.wp.com/yt3.ggpht.com/ytc/AKedOLTHyBlbX5Xi2rxKQ6zs8rQYsiVxr2m_L8IHU6zhLA=s800-c-k-c0x00ffffff-no-rj?ssl=1
+  - name: propeldms
+    url: https://medium.com/@propeldms/oxygen-builder-review-the-good-the-bad-and-the-competition-66e1978121da
+    logo: https://i1.wp.com/miro.medium.com/max/340/1*fLeHoRNiABwUVWB1dKwP3A.png?ssl=1
   - name: isotropic
     url: https://isotropic.co
     logo: https://i1.wp.com/yt3.ggpht.com/ytc/AKedOLQ15xOZeQdAPPzTwTaAnS_YDwg2zxrbTzDiyivd=s800-c-k-c0x00ffffff-no-rj?ssl=1
